@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		30F0481A273C7C0300583D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F04819273C7C0300583D1A /* AppDelegate.swift */; };
 		30F0481C273C7C0300583D1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0481B273C7C0300583D1A /* SceneDelegate.swift */; };
-		30F0481E273C7C0300583D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0481D273C7C0300583D1A /* ViewController.swift */; };
 		30F04821273C7C0300583D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F0481F273C7C0300583D1A /* Main.storyboard */; };
 		30F04823273C7C0800583D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F04822273C7C0800583D1A /* Assets.xcassets */; };
 		30F04826273C7C0800583D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F04824273C7C0800583D1A /* LaunchScreen.storyboard */; };
+		30F0482E273C7C7200583D1A /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0482D273C7C7200583D1A /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30F04816273C7C0300583D1A /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F04819273C7C0300583D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30F0481B273C7C0300583D1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30F0481D273C7C0300583D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30F04820273C7C0300583D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30F04822273C7C0800583D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F04825273C7C0800583D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30F04827273C7C0800583D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F0482D273C7C7200583D1A /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				30F04819273C7C0300583D1A /* AppDelegate.swift */,
 				30F0481B273C7C0300583D1A /* SceneDelegate.swift */,
-				30F0481D273C7C0300583D1A /* ViewController.swift */,
 				30F0481F273C7C0300583D1A /* Main.storyboard */,
+				30F0482D273C7C7200583D1A /* GenreButtonScreen.swift */,
 				30F04822273C7C0800583D1A /* Assets.xcassets */,
 				30F04824273C7C0800583D1A /* LaunchScreen.storyboard */,
 				30F04827273C7C0800583D1A /* Info.plist */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F0481E273C7C0300583D1A /* ViewController.swift in Sources */,
 				30F0481A273C7C0300583D1A /* AppDelegate.swift in Sources */,
 				30F0481C273C7C0300583D1A /* SceneDelegate.swift in Sources */,
+				30F0482E273C7C7200583D1A /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
